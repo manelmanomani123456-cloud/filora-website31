@@ -1,0 +1,59 @@
+/* FILORA Brand Design Tokens — Official Brand Palette */
+:root {
+  /* Primary brand colors */
+  --filora-rouge: #712027;
+  --filora-orange: #FFE9D1;
+  --filora-pink: #FABDD6;
+  --filora-white: #FFFFFF;
+
+  /* Derived neutral shades (for readability/accessibility only) */
+  --filora-ink: #1a1a1a;
+  --filora-text-muted: #6b6b6b;
+  --filora-border: #e8d8d8;
+  --filora-shadow: 0 4px 20px rgba(113, 32, 39, 0.08);
+
+  /* Typography scale */
+  --text-display: clamp(2.5rem, 6vw, 4rem);
+  --text-h1: clamp(2rem, 5vw, 3rem);
+  --text-h2: clamp(1.75rem, 4vw, 2.25rem);
+  --text-h3: clamp(1.5rem, 3vw, 1.875rem);
+  --text-h4: clamp(1.25rem, 2.5vw, 1.5rem);
+  --text-body-lg: clamp(1.125rem, 2vw, 1.25rem);
+  --text-body: clamp(1rem, 1.8vw, 1.125rem);
+  --text-small: clamp(0.875rem, 1.6vw, 1rem);
+  --text-caption: clamp(0.75rem, 1.4vw, 0.875rem);
+
+  /* Spacing */
+  --section-padding: clamp(3rem, 8vw, 6rem);
+  --container-max: 1200px;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+}
+
+@theme inline {
+  --color-filora-rouge: var(--filora-rouge);
+  --color-filora-orange: var(--filora-orange);
+  --color-filora-pink: var(--filora-pink);
+  --color-filora-white: var(--filora-white);
+  --color-filora-ink: var(--filora-ink);
+  --color-filora-text-muted: var(--filora-text-muted);
+  --color-filora-border: var(--filora-border);
+
+  --font-arabic-heading: var(--font-madani);
+  --font-arabic-body: var(--font-bukra);
+  --font-english-heading: var(--font-la-luxes);
+
+  --text-display: var(--text-display);
+  --text-h1: var(--text-h1);
+  --text-h2: var(--text-h2);
+  --text-h3: var(--text-h3);
+  --text-h4: var(--text-h4);
+  --text-body-lg: var(--text-body-lg);
+  --text-body: var(--text-body);
+  --text-small: var(--text-small);
+  --text-caption: var(--text-caption);
+}
